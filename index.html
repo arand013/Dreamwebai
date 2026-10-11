@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DreamWeb AI — AI & Creative Solutions for Growing Businesses</title>
+<meta name="description" content="DreamWeb AI helps local businesses get found, get customers, and grow — with modern web presence, visibility, metrics, and growth tech.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#2563EB;--on-primary:#fff;--secondary:#7C3AED;--accent:#EC4899;
+--bg:#fff;--fg:#0F172A;--card:#fff;--muted:#F1F5FD;--muted-fg:#475569;
+--border:#E4ECFC;--radius:16px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Work Sans",system-ui,sans-serif;color:var(--fg);
+background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Outfit,sans-serif;line-height:1.15;margin:0 0 12px;letter-spacing:-.5px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);
+backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+nav .wrap{display:flex;align-items:center;padding-top:14px;padding-bottom:14px}
+.brand{font-family:Outfit;font-weight:800;font-size:20px}
+.brand span{color:var(--primary)}
+.navlinks{margin-left:auto;display:flex;gap:4px}
+.navlinks a{color:var(--muted-fg);text-decoration:none;font-size:14px;font-weight:500;
+padding:8px 14px;border-radius:10px}
+.navlinks a:hover{color:var(--fg);background:var(--muted)}
+.btn{display:inline-block;background:var(--primary);color:var(--on-primary);
+font-family:Outfit;font-weight:600;font-size:16px;padding:14px 28px;border-radius:12px;
+text-decoration:none;transition:transform .15s,box-shadow .15s;border:none;cursor:pointer}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(37,99,235,.28)}
+.btn.ghost{background:var(--muted);color:var(--fg)}
+.hero{padding:88px 0 64px;background:
+radial-gradient(800px 400px at 15% 0%,rgba(124,58,237,.08),transparent 60%),
+radial-gradient(800px 400px at 90% 20%,rgba(37,99,235,.1),transparent 60%)}
+.hero h1{font-size:52px;font-weight:800;max-width:720px}
+.hero h1 .grad{background:linear-gradient(90deg,var(--primary),var(--secondary));
+-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:19px;color:var(--muted-fg);max-width:620px;margin:0 0 32px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:72px 0}
+section.alt{background:var(--muted)}
+.kicker{font-family:Outfit;font-weight:700;font-size:13px;letter-spacing:2px;
+text-transform:uppercase;color:var(--primary);margin-bottom:8px}
+section h2{font-size:36px;font-weight:700;max-width:640px}
+section .lede{color:var(--muted-fg);font-size:17px;max-width:640px;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+padding:28px;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(15,23,42,.08)}
+.card .icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;
+justify-content:center;margin-bottom:16px;font-size:22px}
+.card h3{font-size:19px;margin:0 0 8px}
+.card p{color:var(--muted-fg);font-size:15px;margin:0}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;
+counter-reset:step}
+.step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+padding:28px;position:relative}
+.step::before{counter-increment:step;content:counter(step);font-family:Outfit;
+font-weight:800;font-size:15px;color:var(--on-primary);background:linear-gradient(135deg,var(--primary),var(--secondary));
+width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+margin-bottom:14px}
+.step h3{font-size:17px}.step p{color:var(--muted-fg);font-size:14.5px;margin:0}
+.cta-band{background:linear-gradient(135deg,var(--primary),var(--secondary));
+border-radius:24px;padding:56px;color:#fff;text-align:center}
+.cta-band h2{color:#fff;max-width:none}
+.cta-band p{color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px}
+.cta-band .btn{background:#fff;color:var(--primary)}
+footer{border-top:1px solid var(--border);padding:32px 0;color:var(--muted-fg);font-size:14px}
+footer .wrap{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+footer .r{margin-left:auto}
+@media(max-width:640px){.hero h1{font-size:36px}section{padding:52px 0}section h2{font-size:28px}}
+</style></head><body>
+<nav><div class="wrap">
+<div class="brand">DreamWeb <span>AI</span></div>
+<div class="navlinks"><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+<h1>Get found. Get customers. <span class="grad">Grow on autopilot.</span></h1>
+<p>DreamWeb AI builds modern web presence, visibility, and growth systems for local
+businesses — so the phone rings while you do the work you love.</p>
+<div class="cta">
+<a class="btn" href="#contact">Get a free growth audit</a>
+<a class="btn ghost" href="#services">See services</a>
+</div></div></header>
+
+<section id="services"><div class="wrap">
+<div class="kicker">What we do</div>
+<h2>Everything a local business needs to win online.</h2>
+<p class="lede">One partner for presence, visibility, and the numbers that prove it's working.</p>
+<div class="grid">
+<div class="card"><div class="icon" style="background:#DBEAFE">🌐</div>
+<h3>Business Presence</h3><p>Modern website, Google Business Profile, and social channels that make you look like the obvious choice.</p></div>
+<div class="card"><div class="icon" style="background:#EDE9FE">📣</div>
+<h3>Visibility</h3><p>Local SEO, review engine, and targeted ads that put you in front of customers right when they're searching.</p></div>
+<div class="card"><div class="icon" style="background:#FCE7F3">📊</div>
+<h3>Metrics That Matter</h3><p>Simple dashboards showing calls, bookings, and revenue — know exactly what your marketing earns you.</p></div>
+<div class="card"><div class="icon" style="background:#D1FAE5">⚙️</div>
+<h3>Growth Tech</h3><p>Online booking, automated follow-ups, and CRM setup so no lead slips through and growth runs efficiently.</p></div>
+</div></div></section>
+
+<section id="process" class="alt"><div class="wrap">
+<div class="kicker">How it works</div>
+<h2>From invisible to inevitable in four steps.</h2>
+<p class="lede">No jargon, no 6-month timelines. A tight process built for busy owners.</p>
+<div class="steps">
+<div class="step"><h3>Free growth audit</h3><p>We look at your current presence and show you exactly where customers are slipping away.</p></div>
+<div class="step"><h3>Presence build</h3><p>Website, profiles, and review engine go live — usually within two weeks.</p></div>
+<div class="step"><h3>Visibility engine</h3><p>Local SEO and targeted campaigns start driving calls and bookings.</p></div>
+<div class="step"><h3>Measure & compound</h3><p>Monthly metrics review. Double down on what works, cut what doesn't.</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<div class="cta-band">
+<h2>Your competitors are getting found. Are you?</h2>
+<p>Claim a free growth audit — we'll show you the three biggest opportunities
+you're missing online, no strings attached.</p>
+<a class="btn" href="mailto:hello@dreamweb.ai?subject=Free%20growth%20audit">Claim my free audit</a>
+</div></div></section>
+
+<footer><div class="wrap">
+<div><b>DreamWeb AI</b> · AI & Creative Solutions · A New Gen LLC venture</div>
+<div class="r">Phoenix, AZ · Southern California</div>
+</div></footer>
+</body></html>
